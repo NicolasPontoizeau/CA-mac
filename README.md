@@ -1,2 +1,2 @@
 # CA-mac
-MonAideCyber Framewok for Ciso-Assistan
+MonAideCyber Framewok for Ciso-Assistant
