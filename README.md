@@ -6,8 +6,8 @@ Le questionnaire MonAideCyber (https://monaide.cyber.gouv.fr/diagnostic-libre-ac
 
 Les mesure (ref_controls) ont été directement récupérées sur le dépôt officiel : https://github.com/betagouv/mon-aide-cyber.
 
-Le référentiel ciso assistant v1 est ![mac12_v1.xlsx](mac12_v1.xlsx ) : 
-Le référentiel ciso assistant v2 est mac 13_new.xlsx 
+Le référentiel ciso assistant v1 est ![mac12_v1.xlsx](mac12_v1.xlsx)   ![mac12_v1.yaml](mac12_v1.yaml)  
+Le référentiel ciso assistant v2 est ![mac13_new.xlsx](mac13_new.xlsx)   ![mac13_new.yaml](mac13_new.yaml) 
 
 A chaque question correspond en général une mesure mac13.xlsx/reference_controls_content. Le lien entre les questions et les mesures se fait avec la colonne mac13.xlsx/reference_controls_content/ref_id
 Chaque mesure à une priorité assignée par l'ANSSI. J'ai mis cette information à la fin de la mesure : P<priorité_1_a_36>
