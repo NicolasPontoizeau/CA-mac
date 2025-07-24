@@ -1,0 +1,558 @@
+urn: urn:intuitem:risk:library:monaidecyber12
+locale: fr
+ref_id: monaidecyber12
+name: MonAideCyber12
+description: Questionnaire du dispositif MonAideCyber https://monaide.cyber.gouv.fr/diagnostic-libre-acces
+copyright: "Copyright 2023 ANSSI - Agence nationale de la s\xE9curit\xE9 des syst\xE8\
+  mes d'information https://github.com/betagouv/mon-aide-cyber/blob/main/LICENSE"
+version: 1
+publication_date: 2025-05-09
+provider: monaidecyber (ANSSI)
+packager: Nicolas PONTOIZEAU
+objects:
+  reference_controls:
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-00
+    ref_id: MAC-REC-00
+    description: "pas de messure particuli\xE8re"
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-01
+    ref_id: MAC-REC-01
+    description: "\xC9tablir la liste des activit\xE9s et des donn\xE9es \xE0 prot\xE9\
+      ger en priorit\xE9 | \xC9tablir la liste exhaustive et \xE0 jour des activit\xE9\
+      s m\xE9tiers et des informations \xE0 prot\xE9ger en priorit\xE9. P1"
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-02
+    ref_id: MAC-REC-02
+    description: "Disposer d\u2019un sch\xE9ma global du r\xE9seau informatique et\
+      \ de la liste des interconnexions vers l\u2019ext\xE9rieur \xE0 jour | Disposer\
+      \ de la liste des \xE9quipements et applicatifs concourant au fonctionnement\
+      \ du syst\xE8me d\u2019information. P20"
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-03
+    ref_id: MAC-REC-03
+    description: "\xC9tablir la liste des donn\xE9es personnelles trait\xE9es au sein\
+      \ de votre entit\xE9 | \xC9tablir votre registre des activit\xE9s de traitement\
+      \ de donn\xE9es personnelles et le tenir \xE0 jour. P15"
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-04
+    ref_id: MAC-REC-04
+    description: "Fournir des informations aux personnes concern\xE9es sur l'utilisation\
+      \ de leurs donn\xE9es personnelles | Mettre en place les modalit\xE9s permettant\
+      \ aux personnes d'exercer de leurs droits. P16"
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-05
+    ref_id: MAC-REC-05
+    description: "Fixer des exigences de cybers\xE9curit\xE9 aux prestataires | V\xE9\
+      rifier l'application et imposer des p\xE9nalit\xE9s aux prestataires en cas\
+      \ de non-respect des exigences de cybers\xE9curit\xE9. P24"
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-06
+    ref_id: MAC-REC-06
+    description: "Mettre en \u0153uvre un outil de gestion des politiques de s\xE9\
+      curit\xE9 centralis\xE9es (ex : Active Directory, Samba-AD) et en \xE9valuer/am\xE9\
+      liorer son niveau de s\xE9curit\xE9 annuellement | Contr\xF4ler r\xE9guli\xE8\
+      rement le niveau de s\xE9curit\xE9 de son outil de gestion de politiques de\
+      \ s\xE9curit\xE9 centralis\xE9. P14"
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-07
+    ref_id: MAC-REC-07
+    description: "R\xE9aliser annuellement une revue des acc\xE8s utilisateurs en\
+      \ les comparant avec les informations d\xE9tenues par le service RH | D\xE9\
+      finir avec le service RH des processus de \xAB circuit arriv\xE9e \xBB et \xAB\
+      \ circuit d\xE9part \xBB assurant les cr\xE9ations et les d\xE9sactivations\
+      \ des comptes utilisateurs. P25"
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-08
+    ref_id: MAC-REC-08
+    description: "\"R\xE9aliser tous les 6 mois une revue des acc\xE8s administrateurs\
+      \ en les comparant avec les informations d\xE9tenues par le service RH | D\xE9\
+      finir avec les administrateurs des processus de \xAB circuit arriv\xE9e \xBB\
+      \ et \xAB circuit d\xE9part \xBB assurant les cr\xE9ations et les d\xE9sactivations\
+      \ des comptes administrateurs. P29"
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-09
+    ref_id: MAC-REC-09
+    description: "Fixer des crit\xE8res de longueur et complexit\xE9 des mots de passe\
+      \ et encourager l\u2019usage d\u2019un coffre-fort de mots de passe | Mettre\
+      \ \xE0 disposition des utilisateurs une coffre fort de mots de passe et les\
+      \ former r\xE9guli\xE8rement \xE0 la cr\xE9ation de mots de passe robustes.\
+      \ P19"
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-10
+    ref_id: MAC-REC-10
+    description: "Limiter drastiquement le nombre d\u2019utilisateurs disposant du\
+      \ privil\xE8ge d\u2019administration local sur leur machine. P7"
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-11
+    ref_id: MAC-REC-11
+    description: "Utiliser des comptes d'administration d\xE9di\xE9s \xE0 cet usage\
+      \ | Utiliser des comptes d'administration distincts selon les p\xE9rim\xE8tres\
+      \ d\u2019administration. P11"
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-12
+    ref_id: MAC-REC-12
+    description: "Prot\xE9ger de mani\xE8re sp\xE9cifique les acc\xE8s des admininistrateurs\
+      \ | Compl\xE9ter les mesures de s\xE9curisation des acc\xE8s d\u2019administration.\
+      \ P13"
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-13
+    ref_id: MAC-REC-13
+    description: "Restreindre l'acc\xE8s aux donn\xE9es \xE0 prot\xE9ger en priorit\xE9\
+      \ aux seules personnes autoris\xE9es \xE0 y acc\xE9der | Pour les syst\xE8mes\
+      \ et applications \xE0 prot\xE9ger en priorit\xE9, d\xE9finir et g\xE9rer les\
+      \ utilisateurs selon 2 niveaux de privil\xE8ges distincts : 1 niveau \"acc\xE8\
+      s complet\" et 1 niveau \"acc\xE8s restreint\". P31"
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-14
+    ref_id: MAC-REC-14
+    description: "Prot\xE9ger de mani\xE8re sp\xE9ficique les donn\xE9es jug\xE9es\
+      \ sensibles | Mettre en place des mesures additionnelles de s\xE9curisation\
+      \ des donn\xE9es jug\xE9es sensibles. P34"
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-15
+    ref_id: MAC-REC-15
+    description: "Mettre en place pour tous les acc\xE8s distants des m\xE9canismes\
+      \ de double authentification \xE0 minima | G\xE9rer tous les acc\xE8s distants\
+      \ via un VPN, lui m\xEAme authentifi\xE9 \xE0 double facteur. P12"
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-16
+    ref_id: MAC-REC-16
+    description: "D\xE9ployer syst\xE9matiquement toutes les mises \xE0 jour sur les\
+      \ postes de travail d\xE8s que celles-ci sont disponibles | Mettre en \u0153\
+      uvre des mesures de s\xE9curit\xE9 suppl\xE9mentaires sur les syst\xE8mes ne\
+      \ pouvant pas b\xE9n\xE9ficier des mises \xE0 jour. P5"
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-17
+    ref_id: MAC-REC-17
+    description: "Installer de mani\xE8re syst\xE9matique un antivirus sur les postes\
+      \ de travail | Traiter syst\xE9matiquement les alertes g\xE9n\xE9r\xE9es par\
+      \ l'antivirus. P4"
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-18
+    ref_id: MAC-REC-18
+    description: "Activer syst\xE9matiquement le pare-feu local sur les postes de\
+      \ travail. P27"
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-19
+    ref_id: MAC-REC-19
+    description: "Mettre en \u0153uvre une solution de type EDR (Endpoint Detection\
+      \ & Response) | Traiter syst\xE9matiquement les alertes g\xE9n\xE9r\xE9es par\
+      \ l'EDR. P25"
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-20
+    ref_id: MAC-REC-20
+    description: "Chiffrer les disques durs des mat\xE9riels nomades. P26"
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-21
+    ref_id: MAC-REC-21
+    description: "D\xE9ployer un pare-feu physique pour prot\xE9ger l\u2019interconnexion\
+      \ du SI \xE0 Internet. P21"
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-22
+    ref_id: MAC-REC-22
+    description: "Fermer tous les flux et les ports non strictement n\xE9cessaires\
+      \ | Mettre en \u0153uvre autant que possible un tunnel VPN pour tous les flux\
+      \ entrants. P21"
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-23
+    ref_id: MAC-REC-23
+    description: "Activer et conserver l'historique de l\u2019ensemble des flux bloqu\xE9\
+      s et des flux entrants et sortants identifi\xE9s par le pare-feu. P33"
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-24
+    ref_id: MAC-REC-24
+    description: "D\xE9ployer syst\xE9matiquement toutes les mises \xE0 jour sur les\
+      \ \xE9quipements de s\xE9curit\xE9 d\xE8s que celles-ci sont disponibles. P2"
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-25
+    ref_id: MAC-REC-25
+    description: "D\xE9ployer syst\xE9matiquement toutes les mises \xE0 jour sur les\
+      \ serveurs, services et logiciels d'administration d\xE8s que celles-ci sont\
+      \ disponibles | Mettre en \u0153uvre des mesures de s\xE9curit\xE9 suppl\xE9\
+      mentaires sur les serveurs, services et logiciels d'administration ne pouvant\
+      \ pas b\xE9n\xE9ficier des mises \xE0 jour. P8"
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-26
+    ref_id: MAC-REC-26
+    description: "Mettre en \u0153uvre une solution d'anti-spam et d'anti-hame\xE7\
+      onnage | Mettre en \u0153uvre des m\xE9canismes compl\xE9mentaires de protection\
+      \ contre les mails ill\xE9gitimes. P28"
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-27
+    ref_id: MAC-REC-27
+    description: "Mettre en place des mesures de s\xE9curisation wifi | Cr\xE9er un\
+      \ sous-r\xE9seau wifi d\xE9di\xE9 aux visiteurs. P36"
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-28
+    ref_id: MAC-REC-28
+    description: "Prot\xE9ger les informations et les syst\xE8mes contre des atteintes\
+      \ physiques | Mettre en place un syst\xE8me de vid\xE9oprotection. P35"
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-29
+    ref_id: MAC-REC-29
+    description: "Mettre en \u0153uvre des bonnes pratiques de sensibilisation | En\
+      \ compl\xE9ment des pratiques d\xE9j\xE0 en \u0153uvre, mettre en place des\
+      \ actions de sensibilisation additionnelles. P17"
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-30
+    ref_id: MAC-REC-30
+    description: "Mener des actions de sensibilisation cibl\xE9e aupr\xE8s du personnel\
+      \ effectuant des d\xE9placements. P18"
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-31
+    ref_id: MAC-REC-31
+    description: "\xC9tablir une charte informatique | S'assurer que la charte informatique\
+      \ est annex\xE9e au contrat de travail et est sign\xE9e par les salari\xE9s.\
+      \ P30"
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-32
+    ref_id: MAC-REC-32
+    description: "S\u2019abonner aux alertes de s\xE9curit\xE9 publi\xE9es par le\
+      \ centre gouvernemental de veille, d'alerte et de r\xE9ponses aux cyberattaques\
+      \ | R\xE9aliser une veille proactive des vuln\xE9rabilit\xE9s informatiques.\
+      \ P32"
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-33
+    ref_id: MAC-REC-33
+    description: "R\xE9aliser des sauvegardes r\xE9guli\xE8rement. P6"
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-34
+    ref_id: MAC-REC-34
+    description: "Disposer d'une copie de sauvegarde des donn\xE9es critiques \u201C\
+      hors ligne\u201D, isol\xE9 de l'environnement bureautique. P9"
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-35
+    ref_id: MAC-REC-35
+    description: "Proc\xE9der \xE0 des tests de restauration des sauvegardes. P10"
+  - urn: urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-36
+    ref_id: MAC-REC-36
+    description: "Lister les personnes \xE0 contacter en cas de cyberattaque | D\xE9\
+      finir un dispositif de gestion de crise d'origine cyber. P22"
+  framework:
+    urn: urn:intuitem:risk:framework:monaidecyber
+    ref_id: monaidecyber12
+    name: MonAideCyber12
+    description: Questionnaire du dispositif MonAideCyber
+    requirement_nodes:
+    - urn: urn:intuitem:risk:req_node:monaidecyber:node1
+      assessable: false
+      depth: 1
+      name: Contexte
+    - urn: urn:intuitem:risk:req_node:monaidecyber:1
+      assessable: true
+      depth: 2
+      parent_urn: urn:intuitem:risk:req_node:monaidecyber:node1
+      ref_id: '1'
+      description: "Quelle est la nature de votre entit\xE9 ?"
+      reference_controls:
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-00
+    - urn: urn:intuitem:risk:req_node:monaidecyber:2
+      assessable: true
+      depth: 2
+      parent_urn: urn:intuitem:risk:req_node:monaidecyber:node1
+      ref_id: '2'
+      description: "Combien de personnes compte votre entit\xE9 ? Combien de postes\
+        \ de travail compte votre entit\xE9 ?"
+      reference_controls:
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-00
+    - urn: urn:intuitem:risk:req_node:monaidecyber:3
+      assessable: true
+      depth: 2
+      parent_urn: urn:intuitem:risk:req_node:monaidecyber:node1
+      ref_id: '3'
+      description: "Estimez-vous que votre entit\xE9, du fait de ses activit\xE9s,\
+        \ puisse faire l\u2019objet d\u2019espionnage industriel ou de vol de donn\xE9\
+        es cibl\xE9 ?"
+      reference_controls:
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-00
+    - urn: urn:intuitem:risk:req_node:monaidecyber:4
+      assessable: true
+      depth: 2
+      parent_urn: urn:intuitem:risk:req_node:monaidecyber:node1
+      ref_id: '4'
+      description: "Votre entit\xE9 op\xE8re-t-elle des syst\xE8mes industriels ?"
+      reference_controls:
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-00
+    - urn: urn:intuitem:risk:req_node:monaidecyber:5
+      assessable: true
+      depth: 2
+      parent_urn: urn:intuitem:risk:req_node:monaidecyber:node1
+      ref_id: '5'
+      description: "Avez-vous d\xE9j\xE0 subi une cyberattaque ?"
+      reference_controls:
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-00
+    - urn: urn:intuitem:risk:req_node:monaidecyber:node2
+      assessable: false
+      depth: 1
+      name: Gouvernance
+    - urn: urn:intuitem:risk:req_node:monaidecyber:6
+      assessable: true
+      depth: 2
+      parent_urn: urn:intuitem:risk:req_node:monaidecyber:node2
+      ref_id: '6'
+      description: "Avez-vous d\xE9termin\xE9 les activit\xE9s et les donn\xE9es \xE0\
+        \ prot\xE9ger en priorit\xE9 ?"
+      reference_controls:
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-01
+    - urn: urn:intuitem:risk:req_node:monaidecyber:7
+      assessable: true
+      depth: 2
+      parent_urn: urn:intuitem:risk:req_node:monaidecyber:node2
+      ref_id: '7'
+      description: "Existe-t-il un plan du syst\xE8me d\u2019information de l\u2019\
+        entit\xE9 ?"
+      reference_controls:
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-02
+    - urn: urn:intuitem:risk:req_node:monaidecyber:8
+      assessable: true
+      depth: 2
+      parent_urn: urn:intuitem:risk:req_node:monaidecyber:node2
+      ref_id: '8'
+      description: "Avez-vous list\xE9 les donn\xE9es personnelles trait\xE9es au\
+        \ sein de votre entit\xE9 ?"
+      reference_controls:
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-03
+    - urn: urn:intuitem:risk:req_node:monaidecyber:9
+      assessable: true
+      depth: 2
+      parent_urn: urn:intuitem:risk:req_node:monaidecyber:node2
+      ref_id: '9'
+      description: "Informez-vous les personnes concern\xE9es sur l'utilisation de\
+        \ leurs donn\xE9es personnelles et leurs droits ?"
+      reference_controls:
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-04
+    - urn: urn:intuitem:risk:req_node:monaidecyber:10
+      assessable: true
+      depth: 2
+      parent_urn: urn:intuitem:risk:req_node:monaidecyber:node2
+      ref_id: '10'
+      description: "Des exigences de cybers\xE9curit\xE9 sont-elles int\xE9gr\xE9\
+        es aux contrats des prestataires disposant d'acc\xE8s informatiques ?"
+      reference_controls:
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-05
+    - urn: urn:intuitem:risk:req_node:monaidecyber:node3
+      assessable: false
+      depth: 1
+      name: "S\xE9curit\xE9 des acc\xE8s au syst\xE8me d'information"
+    - urn: urn:intuitem:risk:req_node:monaidecyber:11
+      assessable: true
+      depth: 2
+      parent_urn: urn:intuitem:risk:req_node:monaidecyber:node3
+      ref_id: '11'
+      description: "Un outil de gestion des comptes et des politiques de s\xE9curit\xE9\
+        \ centralis\xE9 (ex : Active Directory, Samba-AD, Entra ID, scripts d'administration\
+        \ automatis\xE9s, etc.) est-il mis en \u0153uvre ?"
+      reference_controls:
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-06
+    - urn: urn:intuitem:risk:req_node:monaidecyber:12
+      assessable: true
+      depth: 2
+      parent_urn: urn:intuitem:risk:req_node:monaidecyber:node3
+      ref_id: '12'
+      description: "ATTAQUE CIBL\xC9E : La liste des comptes utilisateurs (prestataires\
+        \ inclus) est-elle maintenue \xE0 jour ?"
+      reference_controls:
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-07
+    - urn: urn:intuitem:risk:req_node:monaidecyber:13
+      assessable: true
+      depth: 2
+      parent_urn: urn:intuitem:risk:req_node:monaidecyber:node3
+      ref_id: '13'
+      description: "Les droits des utilisateurs sont-ils limit\xE9s \xE0 leurs besoins\
+        \ m\xE9tiers ?"
+      reference_controls:
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-08
+    - urn: urn:intuitem:risk:req_node:monaidecyber:14
+      assessable: true
+      depth: 2
+      parent_urn: urn:intuitem:risk:req_node:monaidecyber:node3
+      ref_id: '14'
+      description: Les utilisateurs sont-ils administrateurs de leur poste ?
+      reference_controls:
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-10
+    - urn: urn:intuitem:risk:req_node:monaidecyber:15
+      assessable: true
+      depth: 2
+      parent_urn: urn:intuitem:risk:req_node:monaidecyber:node3
+      ref_id: '15'
+      description: "Des exigences de complexit\xE9 sont-elles impos\xE9es sur les\
+        \ mots de passe de session des utilisateurs ?"
+      reference_controls:
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-09
+    - urn: urn:intuitem:risk:req_node:monaidecyber:16
+      assessable: true
+      depth: 2
+      parent_urn: urn:intuitem:risk:req_node:monaidecyber:node3
+      ref_id: '16'
+      description: "La liste des comptes des administrateurs informatiques (prestataires\
+        \ inclus) est-elle suivie et limit\xE9e au strict n\xE9cessaire ?"
+      reference_controls:
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-10
+    - urn: urn:intuitem:risk:req_node:monaidecyber:17
+      assessable: true
+      depth: 2
+      parent_urn: urn:intuitem:risk:req_node:monaidecyber:node3
+      ref_id: '17'
+      description: "L'utilisation des comptes administrateurs est-elle bien limit\xE9\
+        e aux t\xE2ches d'administration ?"
+      reference_controls:
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-11
+    - urn: urn:intuitem:risk:req_node:monaidecyber:18
+      assessable: true
+      depth: 2
+      parent_urn: urn:intuitem:risk:req_node:monaidecyber:node3
+      ref_id: '18'
+      description: "Les acc\xE8s des administrateurs font-ils l\u2019objet de mesures\
+        \ de s\xE9curit\xE9 renforc\xE9es ?"
+      reference_controls:
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-12
+    - urn: urn:intuitem:risk:req_node:monaidecyber:19
+      assessable: true
+      depth: 2
+      parent_urn: urn:intuitem:risk:req_node:monaidecyber:node3
+      ref_id: '19'
+      description: "ATTAQUE CIBL\xC9E : L'acc\xE8s des utilisateurs aux ressources\
+        \ et donn\xE9es les plus sensibles fait-il l\u2019objet de mesures de s\xE9\
+        curit\xE9 additionnelles ?"
+      reference_controls:
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-13
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-14
+    - urn: urn:intuitem:risk:req_node:monaidecyber:20
+      assessable: true
+      depth: 2
+      parent_urn: urn:intuitem:risk:req_node:monaidecyber:node3
+      ref_id: '20'
+      description: "Le t\xE9l\xE9travail et les acc\xE8s distants (cloud inclus) sont-ils\
+        \ prot\xE9g\xE9s par une authentification multifacteur ?"
+      reference_controls:
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-15
+    - urn: urn:intuitem:risk:req_node:monaidecyber:node4
+      assessable: false
+      depth: 1
+      name: "S\xE9curit\xE9 des postes"
+    - urn: urn:intuitem:risk:req_node:monaidecyber:21
+      assessable: true
+      depth: 2
+      parent_urn: urn:intuitem:risk:req_node:monaidecyber:node4
+      ref_id: '21'
+      description: "Les mises \xE0 jour fonctionnelles et de s\xE9curit\xE9 des logiciels\
+        \ utilis\xE9s sont-elles d\xE9ploy\xE9es sur les postes de travail des utilisateurs\
+        \ et des administrateurs ?"
+      reference_controls:
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-16
+    - urn: urn:intuitem:risk:req_node:monaidecyber:22
+      assessable: true
+      depth: 2
+      parent_urn: urn:intuitem:risk:req_node:monaidecyber:node4
+      ref_id: '22'
+      description: "Un antivirus \xE0 jour est-il d\xE9ploy\xE9 sur chaque poste de\
+        \ travail ?"
+      reference_controls:
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-17
+    - urn: urn:intuitem:risk:req_node:monaidecyber:23
+      assessable: true
+      depth: 2
+      parent_urn: urn:intuitem:risk:req_node:monaidecyber:node4
+      ref_id: '23'
+      description: "Un pare-feu local est-il activ\xE9 sur les postes de travail ?"
+      reference_controls:
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-18
+    - urn: urn:intuitem:risk:req_node:monaidecyber:24
+      assessable: true
+      depth: 2
+      parent_urn: urn:intuitem:risk:req_node:monaidecyber:node4
+      ref_id: '24'
+      description: "En compl\xE9ment de l'antivirus, un outil de type EDR a-t-il \xE9\
+        t\xE9 mis en place ?"
+      reference_controls:
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-19
+    - urn: urn:intuitem:risk:req_node:monaidecyber:25
+      assessable: true
+      depth: 2
+      parent_urn: urn:intuitem:risk:req_node:monaidecyber:node4
+      ref_id: '25'
+      description: "ATTAQUE CIBL\xC9E : Les disques durs des mat\xE9riels nomades\
+        \ sont-ils chiffr\xE9s ?"
+      reference_controls:
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-20
+    - urn: urn:intuitem:risk:req_node:monaidecyber:node5
+      assessable: false
+      depth: 1
+      name: "S\xE9curit\xE9 des infrastructures"
+    - urn: urn:intuitem:risk:req_node:monaidecyber:26
+      assessable: true
+      depth: 2
+      parent_urn: urn:intuitem:risk:req_node:monaidecyber:node5
+      ref_id: '26'
+      description: "La connexion \xE0 Internet est-elle prot\xE9g\xE9e par un pare-feu\
+        \ ?"
+      reference_controls:
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-21
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-22
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-23
+    - urn: urn:intuitem:risk:req_node:monaidecyber:27
+      assessable: true
+      depth: 2
+      parent_urn: urn:intuitem:risk:req_node:monaidecyber:node5
+      ref_id: '27'
+      description: " Les mises \xE0 jour fonctionnelles et de s\xE9curit\xE9 des \xE9\
+        quipements de s\xE9curit\xE9 sont-elles d\xE9ploy\xE9es ?"
+      reference_controls:
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-25
+    - urn: urn:intuitem:risk:req_node:monaidecyber:28
+      assessable: true
+      depth: 2
+      parent_urn: urn:intuitem:risk:req_node:monaidecyber:node5
+      ref_id: '28'
+      description: " Les mises \xE0 jour fonctionnelles et de s\xE9curit\xE9 des syst\xE8\
+        mes d'exploitation des serveurs, services et logiciels d'administration sont-elles\
+        \ d\xE9ploy\xE9es ?"
+      reference_controls:
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-25
+    - urn: urn:intuitem:risk:req_node:monaidecyber:29
+      assessable: true
+      depth: 2
+      parent_urn: urn:intuitem:risk:req_node:monaidecyber:node5
+      ref_id: '29'
+      description: " Des mesures et outils sp\xE9cifiques sont-ils mis en \u0153uvre\
+        \ pour s\xE9curiser le syst\xE8me de messagerie ?"
+      reference_controls:
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-26
+    - urn: urn:intuitem:risk:req_node:monaidecyber:30
+      assessable: true
+      depth: 2
+      parent_urn: urn:intuitem:risk:req_node:monaidecyber:node5
+      ref_id: '30'
+      description: " ATTAQUE CIBL\xC9E : Les points d\u2019acc\xE8s wifi sont-ils\
+        \ s\xE9curis\xE9s ?"
+      reference_controls:
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-27
+    - urn: urn:intuitem:risk:req_node:monaidecyber:31
+      assessable: true
+      depth: 2
+      parent_urn: urn:intuitem:risk:req_node:monaidecyber:node5
+      ref_id: '31'
+      description: " ATTAQUE CIBL\xC9E : L'acc\xE8s \xE0 la salle ou \xE0 l'espace\
+        \ d\xE9di\xE9 au stockage des serveurs d'administration, baies informatiques\
+        \ et des \xE9quipements r\xE9seau est-il prot\xE9g\xE9 par une porte s\xE9\
+        curis\xE9e ?"
+      reference_controls:
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-28
+    - urn: urn:intuitem:risk:req_node:monaidecyber:node6
+      assessable: false
+      depth: 1
+      name: Sensibilisation des utilisateurs
+    - urn: urn:intuitem:risk:req_node:monaidecyber:32
+      assessable: true
+      depth: 2
+      parent_urn: urn:intuitem:risk:req_node:monaidecyber:node6
+      ref_id: '32'
+      description: " Des actions de sensibilisation \xE0 la menace et aux bonnes pratiques\
+        \ cyber sont-elles r\xE9alis\xE9es ?"
+      reference_controls:
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-29
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-30
+    - urn: urn:intuitem:risk:req_node:monaidecyber:33
+      assessable: true
+      depth: 2
+      parent_urn: urn:intuitem:risk:req_node:monaidecyber:node6
+      ref_id: '33'
+      description: " Le respect d\u2019une charte d\u2019utilisation des moyens informatiques\
+        \ et des outils num\xE9riques est-il exig\xE9 au personnel ?"
+      reference_controls:
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-31
+    - urn: urn:intuitem:risk:req_node:monaidecyber:node7
+      assessable: false
+      depth: 1
+      name: "R\xE9action \xE0 une cyberattaque"
+    - urn: urn:intuitem:risk:req_node:monaidecyber:34
+      assessable: true
+      depth: 2
+      parent_urn: urn:intuitem:risk:req_node:monaidecyber:node7
+      ref_id: '34'
+      description: " Un suivi des alertes de cybers\xE9curit\xE9 et des vuln\xE9rabilit\xE9\
+        s publi\xE9es pouvant vous affecter est-il r\xE9alis\xE9 ?"
+      reference_controls:
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-32
+    - urn: urn:intuitem:risk:req_node:monaidecyber:35
+      assessable: true
+      depth: 2
+      parent_urn: urn:intuitem:risk:req_node:monaidecyber:node7
+      ref_id: '35'
+      description: "Des sauvegardes r\xE9guli\xE8res des donn\xE9es sont-elles r\xE9\
+        alis\xE9es ?"
+      reference_controls:
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-34
+    - urn: urn:intuitem:risk:req_node:monaidecyber:36
+      assessable: true
+      depth: 2
+      parent_urn: urn:intuitem:risk:req_node:monaidecyber:node7
+      ref_id: '36'
+      description: "Savez-vous comment r\xE9agir en cas de cyberattaque ?"
+      reference_controls:
+      - urn:intuitem:risk:reference_control:monaidecyber12:mac-rec-36
